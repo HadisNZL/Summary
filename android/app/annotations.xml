@@ -1,0 +1,6 @@
+<root>
+  <item
+      name='android.app.ActivityManager java.util.List&lt;android.app.ActivityManager.RunningTaskInfo&gt; getRunningTasks(int)'>
+    <annotation name='java.lang.annotation.Deprecated' />
+  </item>
+</root>

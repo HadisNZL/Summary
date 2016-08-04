@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout_header"
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:background="@color/bac_color">
+
+    <!-- 返回按钮 -->
+
+    <Button
+        android:id="@+id/ivTitleBtnLeft"
+        style="@style/title_base_button"
+        android:layout_marginLeft="@dimen/space_5"
+        android:background="@color/transparent"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_15"
+        />
+
+    <com.example.hadis.summary.view.ShineTextView
+        android:id="@+id/ivTitleName"
+        style="@style/main_head_title"
+        android:layout_centerInParent="true"
+        android:text="Hadis"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/ivTitleBtnRigh"
+        android:layout_width="@dimen/space_21"
+        android:layout_height="@dimen/space_22"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/space_15"
+        android:background="@drawable/search_pic"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_15"
+        />
+</RelativeLayout>

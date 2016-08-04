@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/one_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_20">
+
+        <Button
+            android:id="@+id/btn_baidu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_20"
+            android:text="测试百度地图"/>
+
+        <Button
+            android:id="@+id/btnss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/btn_baidu"
+            android:text="判断网络"/>
+
+        <Button
+            android:id="@+id/rec_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/btnss"
+            android:text="测试RecyclerView"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ddddd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/one_layout"
+        android:layout_marginTop="@dimen/space_10">
+
+        <Button
+            android:id="@+id/slide_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_20"
+            android:text="测试slide"/>
+
+        <Button
+            android:id="@+id/up_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_20"
+            android:layout_toRightOf="@+id/slide_btn"
+            android:text="上传头像测试"/>
+
+        <Button
+            android:id="@+id/biaoqian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_20"
+            android:layout_toRightOf="@+id/up_img"
+            android:text="标签"/>
+
+        <Button
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/slide_btn"
+            android:layout_marginLeft="@dimen/space_20"
+            android:text="复选框"/>
+
+        <Button
+            android:id="@+id/maoboli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/slide_btn"
+            android:layout_marginLeft="@dimen/space_20"
+            android:layout_toRightOf="@+id/checkBox"
+            android:text="毛玻璃"/>
+
+        <Button
+            android:id="@+id/rx_android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/slide_btn"
+            android:layout_marginLeft="@dimen/space_20"
+            android:layout_toRightOf="@+id/maoboli"
+            android:text="语音录音"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/four_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ddddd"
+        android:layout_marginTop="@dimen/space_10">
+
+        <Button
+            android:id="@+id/retrofit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_20"
+            android:text="retrofit"/>
+
+        <Button
+            android:id="@+id/material"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_20"
+            android:layout_toRightOf="@+id/retrofit_btn"
+            android:text="刷新"/>
+
+        <Button
+            android:id="@+id/hhhhhh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_20"
+            android:layout_toRightOf="@+id/material"
+            android:text="Java与JS交互"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/five_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/four_layout"
+        android:layout_marginTop="@dimen/space_10">
+
+        <Button
+            android:id="@+id/fresco_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_20"
+            android:text="Fresco"/>
+
+        <Button
+            android:id="@+id/app_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_10"
+            android:layout_toRightOf="@+id/fresco_btn"
+            android:text="RxJava"/>
+
+        <Button
+            android:id="@+id/app_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_5"
+            android:layout_toRightOf="@+id/app_btn"
+            android:text=" RxJava和Retrofit"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/six_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/five_layout"
+        android:layout_marginTop="@dimen/space_10">
+
+        <Button
+            android:id="@+id/cardview_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_20"
+            android:text="CardView"/>
+
+        <Button
+            android:id="@+id/ccc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_20"
+            android:layout_toRightOf="@+id/cardview_btn"
+            android:text="圆圈进度条"/>
+
+        <Button
+            android:id="@+id/hhhhsshh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_20"
+            android:layout_toRightOf="@+id/ccc1"
+            android:text="..."/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/space_20"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.example.hadis.summary.view.CircleImageView
+            android:id="@+id/img_url"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/my_icon001"
+            app:border_color="@color/gray"
+            app:border_width="1dp"
+            />
+
+        <TextView
+            android:id="@+id/yyyyy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我们结婚了"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+</RelativeLayout>

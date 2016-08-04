@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_three_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B4EEB4"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_25"
+        android:layout_marginRight="@dimen/space_15"
+        android:layout_marginTop="@dimen/space_8"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/space_2"
+            android:layout_height="48dp"
+            android:background="@color/line_color"
+            android:maxLines="2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_10"
+            android:layout_marginLeft="@dimen/space_5"
+            android:layout_marginTop="@dimen/space_3"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:text="       生态林是指为维护和改善生态环境，保持生态平衡，保护生物多样性等满足人类社会的生态、社会需求和可持续发展为主体功能的防护林和特种用途林。"
+            android:textColor="@color/indianred"
+            android:textSize="@dimen/text_size_13"/>
+
+    </LinearLayout>
+</LinearLayout>

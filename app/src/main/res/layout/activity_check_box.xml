@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/space_20"
+    android:paddingRight="@dimen/space_20">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_20"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkbox_01"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/space_3"
+            android:layout_weight="1"
+            android:background="@drawable/biaodan_content_bg"
+            android:textColor="@color/line_color"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_02"
+            android:layout_width="0dp"
+            android:textColor="@color/line_color"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_3"
+            android:layout_marginRight="@dimen/space_3"
+            android:layout_weight="1"
+            android:background="@drawable/biaodan_content_bg"
+            android:textSize="@dimen/text_size_15"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_03"
+            android:layout_width="0dp"
+            android:textColor="@color/line_color"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_3"
+            android:layout_weight="1"
+            android:background="@drawable/biaodan_content_bg"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_20"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkbox_04"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/space_3"
+            android:layout_weight="1"
+            android:textColor="@color/line_color"
+            android:background="@drawable/biaodan_content_bg"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_05"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_3"
+            android:layout_marginRight="@dimen/space_3"
+            android:layout_weight="1"
+            android:textColor="@color/line_color"
+            android:background="@drawable/biaodan_content_bg"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_06"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_3"
+            android:layout_weight="1"
+            android:textColor="@color/line_color"
+            android:background="@drawable/biaodan_content_bg"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_result"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/space_20"
+        android:text="结果"/>
+
+</LinearLayout>

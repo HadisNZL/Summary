@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Hadis</string>
+    <!-- 页面名称 -->
+    <string name="main_navigation_home">我爱你</string>
+    <string name="main_navigation_im">太美好</string>
+    <string name="main_navigation_interest">时间</string>
+    <string name="main_navigation_user">会知道</string>
+    <string name="exit_dialog_tip">确定退出程序吗</string>
+    <string name="btn_go_app">进入Hadis</string>
+    <string name="title_activity_test">TestActivity</string>
+
+
+    <integer-array name="material_colors">
+        <item>@color/material_green</item>
+        <item>@color/material_green</item>
+        <item>@color/material_blue</item>
+        <item>@color/material_yellow</item>
+    </integer-array>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <com.example.hadis.summary.autoscrollviewpager.AutoScrollViewPager
+            android:id="@+id/view_pager_advert"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
